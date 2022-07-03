@@ -1,6 +1,6 @@
-### Project Title: Simulating cyanobacteria in a simple shear flow in the Stokes regime
-### Author: Joey Besseling
-### Bachelor Thesis Physics & Astronomy at University of Amsterdam
+# Project Title: Simulating cyanobacteria in a simple shear flow in the Stokes regime
+# Author: Joey Besseling
+# Bachelor Thesis Physics & Astronomy at University of Amsterdam
 
 # Motivation and Theory
 The goal of my bachelor thesis is simulating a small number of cyanobacteria in a simple shear flow and observe the break up time against different varied parameters. The cyanobacteria are approached as rigid spheres, connected through bending springs.  A break up is considered as one of the springs being extended past a certain threshold. The flow is considered a low Reynolds number flow, therefore the Stokes' equations can be used. Faxen's law is an extension to Stokes' law, taking into account particle-particle interactions. The trajectories are computed using Runge-Kutta 4th-order method. In each iteration the positions are updated, an if-statement checks if any of the springs is extended past a break up condition. If so, the simulation is ended or the connection is removed after which the simulation continues.
