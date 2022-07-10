@@ -17,7 +17,7 @@ The main functions are:
 - 'class Particle' for holding the properties of the particles
 - functions for initializing, simulating and repeating simulations for varied parameters
 - functions for plotting, animating and making gifs
-- input requests for paramters and type of simulations, and executing the requested functions
+- input requests for parameters and type of simulations to perform, and executing the requested simulations
 
 ### Usage
 - Scroll through to line 836, where all main functions are executed.
